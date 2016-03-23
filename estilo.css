@@ -18,10 +18,13 @@ src :url(fonts/bebas.otf);
 
 header {
 	padding: 2.5%;
+  padding-top: 2.5%;
+  padding-bottom: 5%;
   background-color: purple;
   border-bottom: thick solid yellow;
   font-family: bebas;
   color: yellow;
+  z-index: 100;
   font-size: 275%;
   text-align: center;
 	margin: -10px -10px 2% -10px;
@@ -47,7 +50,7 @@ font-family: bebas;
 /*________________________________________________________________*/
 body {
     	background-color: purple;
-      background-image: url(bg.jpg);
+      background-image: url(b.jpg);
       background-size: 100% 100%;
       background-attachment: fixed;
 }
@@ -81,6 +84,18 @@ body {
   background-color: red;
   border: solid white;*/
 }
+.foto {
+  padding-top: 30%;
+  padding-bottom: 30%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
+.foto:hover {
+  padding-top: 40%;
+  padding-bottom: 40%;
+  margin-left: 20%;
+  margin-right: 20%;
+}
 }
 @media screen and (min-width: 960px ) {
 .item_menu {
@@ -96,15 +111,24 @@ overflow: visible;
 /*background-color: blue;*/
 }
 .foto {
-  padding-top: 40%;
-  padding-bottom: 40%;
-  border-radius: 5%;
-  margin: auto;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  margin-left: 40%;
+  margin-right: 40%;
+}
+.foto:hover {
+  padding-top: 15%;
+  padding-bottom: 15%;
+  margin-left: 45%;
+  margin-right: 45%;
+}
+}
+.foto {
+    border-radius: 100%;
+  border: thick solid yellow;
   background-size: 100% 100%;
 }
-.foto:hover{
-  transform: scale(130%);
-}
+
 .legenda p{
   margin: 1%;
   text-align: justify;
@@ -113,6 +137,16 @@ overflow: visible;
   font-family: bebas;
   z-index: -99;
 }
+.data p{
+  margin: 1%;
+  text-align: left;
+  color: white;
+  font-size: 125%;
+  font-family: o24d;
+  z-index: -99;
+}
 .legenda:hover {
-  transform: scale(110%);
+  transform: scale(1.1,1.1);
+  background-color: rgb(171, 119, 207);
+  border-radius: 25px;
 }
