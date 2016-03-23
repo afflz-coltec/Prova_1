@@ -91,10 +91,10 @@ body {
   margin-right: 15%;
 }
 .foto:hover {
-  padding-top: 40%;
-  padding-bottom: 40%;
-  margin-left: 20%;
-  margin-right: 20%;
+  padding-top: 45%;
+  padding-bottom: 45%;
+  margin-left: 5%;
+  margin-right: 5%;
 }
 }
 @media screen and (min-width: 960px ) {
@@ -117,10 +117,7 @@ overflow: visible;
   margin-right: 40%;
 }
 .foto:hover {
-  padding-top: 15%;
-  padding-bottom: 15%;
-  margin-left: 45%;
-  margin-right: 45%;
+transform: scale(1.25,1.25);
 }
 }
 .foto {
