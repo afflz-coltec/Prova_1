@@ -33,9 +33,6 @@ header p{
 margin: 0;
 border: 0;
 }
-a:link {
-    text-decoration: none;
-}
 
 div , div p  {
   transition: 1s;
@@ -79,6 +76,14 @@ body {
   padding: 0;
   border: 0;
   font-family: bebas;
+<<<<<<< HEAD
+=======
+  color: yellow;
+
+  /*
+  background-color: red;
+  border: solid white;*/
+>>>>>>> parent of d51ffb2... Ajeitada OK
 }
 .foto {
   padding-top: 30%;
@@ -95,7 +100,7 @@ body {
 }
 @media screen and (min-width: 960px ) {
 .item_menu {
-width: 33%;
+width: 20%;
 height: auto;
 margin: auto;
 padding: auto;
